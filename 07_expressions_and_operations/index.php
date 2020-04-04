@@ -35,7 +35,12 @@ echo 2**3;
 
 echo "<hr>";
 
-if ("Universe" == 0) {
+$hundred = 100;
+var_dump($hundred == 1); // false
+var_dump($hundred == true); // true, потому что сравнение boolean
+var_dump("" == 0); // true // сравнение числовое
+
+if ("Universe" == 0) { // сравнение числовое, а (int)"Universe" = 0
   echo "<p>Strange things!</p>";
 }
 
