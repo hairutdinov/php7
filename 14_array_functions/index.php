@@ -104,6 +104,30 @@ $arr = [2,3,4];
 var_dump(array_unshift($arr, 1)); // 4, возвращает новый размер массива
 var_dump($arr);
 
+hr();
+
+var_dump(array_intersect([1,2,3], [1,3], [1,2])); // [0 => int(1)]
+
+hr();
+
+var_dump(array_diff([1,2,3,20], [2,4], [1,3,5])); // [3 => int(20)]
+
+hr();
+
+var_dump(array_unique(["a" => "green", "red", "blue", "b" => "green", "red"])); // ["a"]=> "green" [0]=> "red" [1]=> "blue"
+
+hr();
+
+$arr = [
+    "employee" => "Иванов Иван",
+    "phones" => [
+        "9191534324",
+        "9170493201",
+    ]
+];
+
+debug(json_encode($arr, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+
 ?>
 
 </body>
