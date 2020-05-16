@@ -1,0 +1,12 @@
+{
+    "name": "hairutdinovbr/42_psr",
+    "authors": [
+        {
+            "name": "Bulat Khayrutdinov",
+            "email": "bulatxajrutdinoff@yandex.ru"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.1"
+    }
+}
