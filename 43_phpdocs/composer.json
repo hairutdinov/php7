@@ -1,0 +1,12 @@
+{
+    "name": "hairutdinovbr/43_phpdocs",
+    "authors": [
+        {
+            "name": "Bulat Khayrutdinov",
+            "email": "bulatxajrutdinoff@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    }
+}
